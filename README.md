@@ -4,10 +4,14 @@
 * ```git init``` inicializa el proyecto para seguir el control de cambios
 * ```git status``` muestra los ficheros bajo control de cambios
 * ```git restore <file>``` deshace los cambios de un ficher (antes de hacer commit)
+* ```git reset``` deshace los cambios desde el ultimo commit
+* ```git rm <file>``` borra el fichero del control de cambios
+* ```git mv <file> <newfile>``` renombra el fichero
+* 
 * ```git add <file>``` añade el fichero al control de cambios
 * ```git commit -m "message"``` confirma los cambios
 * ```git log``` muestra el historial de cambios
-* ```git checkout <commit>``` vuelve a un commit anterior
+* ```git checkout <commit>``` vuelve al entorno de un commit anterior
 * ```git branch <branch>``` crea una nueva rama
 * ```git branch -d <branch>``` borra la rama indicada
 * ```git checkout <branch>``` cambia a la rama indicada
@@ -32,12 +36,19 @@
 * ```git config --global --edit``` edita la configuracion
 * ```git config --global --add <config> <value>``` añade un valor a una configuracion
 
+## alias utiles
+* ```git config --global alias.st status``` crea un alias para el comando status
+* ```git config --global alias.tree "log --graph --decorate --all --oneline"``` visualiza el log en forma de arbol
+*
 
 ## Configuracion de un repositorio
+* ```echo "# README.md" >> README.md```
 * ```git init``` inicializa el repositorio
-* ```git remote add origin <url>``` añade el repositorio remoto
-* ```git push -u origin master``` sube los cambios al repositorio remoto
-*
+* ```git add README.md```
+* ```git commit -m "first commit"```
+* ```git branch -M main```
+* ```git remote add origin https://github.com/<gitUser>/<gitRepository>.git``` añade el repositorio remoto
+* ```git push -u origin main``` sube los cambios al repositorio remoto
 *
 *
 *
