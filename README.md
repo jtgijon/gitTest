@@ -3,12 +3,11 @@
 ## Comandos
 * ```git init``` inicializa el proyecto para seguir el control de cambios
 * ```git status``` muestra los ficheros bajo control de cambios
-* ```git restore <file>``` deshace los cambios de un fichero
+* ```git restore <file>``` deshace los cambios de un ficher (antes de hacer commit)
 * ```git add <file>``` añade el fichero al control de cambios
 * ```git commit -m "message"``` confirma los cambios
 * ```git log``` muestra el historial de cambios
 * ```git checkout <commit>``` vuelve a un commit anterior
-* ```git checkout master``` vuelve al ultimo commit
 * ```git branch <branch>``` crea una nueva rama
 * ```git checkout <branch>``` cambia a la rama indicada
 * ```git merge <branch>``` fusiona la rama indicada con la actual
