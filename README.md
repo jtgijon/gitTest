@@ -22,7 +22,6 @@
 * ```git reset --hard <commit>``` vuelve al commit indicado borrando los cambios
 * ```git reset --hard origin/master``` vuelve al ultimo commit del repositorio remoto borrando los cambios
 
-
 ## Configuracion inicial
 * ```git config --global user.name "name"``` configura el nombre de usuario
 * ```git config --global user.email "email"``` configura el email del usuario
