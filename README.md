@@ -19,7 +19,7 @@
 * ```git stash list|pop|drop``` muestra/recupera/borra los stash guardados
 *
 * ```git remote add origin <url>``` añade el repositorio remoto
-* ```git push -u origin master``` sube los cambios al repositorio remoto
+* ```git push -u origin main``` sube los cambios al repositorio remoto
 * ```git clone <url>``` clona el repositorio remoto
 * ```git pull``` sube los cambios del repositorio remoto
 * ```git fetch``` descarga los cambios del repositorio remoto
@@ -27,7 +27,7 @@
 * ```git diff <commit> <commit> <file>``` muestra las diferencias entre dos commits o ramas de un fichero
 * ```git reset [<file>]``` deshace los cambios desde el ultimo commit o de un fichero
 * ```git reset --hard <commit>``` vuelve/avanza al commit indicado borrando el historial a partir de ese commit
-* ```git reset --hard origin/master``` vuelve al ultimo commit del repositorio remoto borrando el historial de cambios
+* ```git reset --hard origin/main``` vuelve al ultimo commit del repositorio remoto borrando el historial de cambios
 * ```git reflog``` muestra el historial de cambios incluso lo borrado con reset hard
 * ```git tag <tag>``` da un nombre a un commit
 
